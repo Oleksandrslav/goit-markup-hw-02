@@ -14,7 +14,7 @@ body {
 }
 
 .logo {
-    color: #2E2F42;
+    color: #4D5AE5;
     font-family: Raleway, sans-serif;
     font-size: 18px;
     font-weight: 700;
@@ -24,7 +24,7 @@ body {
 }
 
 .logo-span {
-    color: #4D5AE5;
+    color: #2E2F42;
 }
 
 /* Site nav */
@@ -41,7 +41,12 @@ body {
     color: #404BBF;
 }
 
+.address {
+    font-style: normal;
+}
+
 .address-link {
+    color: #434455;
     font-size: 16px;
     font-weight: 400;
     line-height: 1.5;
@@ -87,6 +92,10 @@ body {
     background-color: #F4F4FD;
 }
 
+.list-item {
+    background-color: #FFFFFF;
+}
+
 .section-title {
     color: #2E2F42;
     text-align: center;
@@ -105,19 +114,20 @@ body {
     letter-spacing: 0.4px;
 }
 
+.section-text {
+    color: #434455;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+}
+
 /* Footer */
 .footer {
     background-color: #2E2F42;
 }
 
-.footer-logo {
+.footer-span {
     color: #F4F4FD;
-    font-family: Raleway, sans-serif;
-    font-size: 18px;
-    font-weight: 700;
-    line-height: 1.17;
-    letter-spacing: 0.54px;
-    text-transform: uppercase;
 }
 
 .footer-text {
